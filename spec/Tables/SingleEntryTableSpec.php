@@ -6,7 +6,7 @@ use Behat\Gherkin\Node\TableNode;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
-class SingleEntityTableSpec extends ObjectBehavior
+class SingleEntryTableSpec extends ObjectBehavior
 {
     private $simpleTable = [
         ['Title',       'Some title'],

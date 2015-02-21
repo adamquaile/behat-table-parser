@@ -5,7 +5,7 @@ namespace AdamQuaile\Behat\TableParser\Tables;
 use AdamQuaile\Behat\TableParser\Exceptions\RequiredKeyNotFound;
 use Behat\Gherkin\Node\TableNode;
 
-class SingleEntityTable
+class SingleEntryTable
 {
     /**
      * @var array

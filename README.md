@@ -14,7 +14,7 @@ And a context method like this:
     
     public function thereIsATableLikeThis(TableNode $table)
     {
-        $table = (new SingleEntityTable($table))
+        $table = (new SingleEntryTable($table))
             ->requires('Key1')
         ;
         $table->get('Key1');
