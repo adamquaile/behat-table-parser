@@ -15,8 +15,4 @@ trait ParsesTables
         return new SingleEntryTable($tableNode);
     }
 
-    public function singleEntryTable(TableNode $table)
-    {
-        return new SingleEntryTable($table);
-    }
 }
