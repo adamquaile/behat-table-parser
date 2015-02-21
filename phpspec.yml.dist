@@ -1,0 +1,4 @@
+suites:
+    default_suite:
+        namespace: AdamQuaile\Behat\TableParser
+        psr4_prefix: AdamQuaile\Behat\TableParser
