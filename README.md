@@ -2,6 +2,8 @@
 
 More fluent API for behat TableNodes. 
 
+**Experimental. Need to implement sensible way of better integrating into context classes.**
+
 ## Usage
 
 Tables used for single entities or key-value pairs:
