@@ -8,11 +8,10 @@ use Behat\Gherkin\Node\TableNode;
 trait ParsesTables
 {
     /**
-     * @Transform singleEntryTable
+     * @Transform :0
      */
-    public function transformTableNodeToSingleEntryTable(TableNode $tableNode)
+    public function transformTableNodeToRelevantTableType(TableNode $singleEntryTable)
     {
-        return new SingleEntryTable($tableNode);
+        return new SingleEntryTable($singleEntryTable);
     }
-
 }
